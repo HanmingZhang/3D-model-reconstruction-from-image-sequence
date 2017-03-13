@@ -3,11 +3,12 @@
 This is my undergraduate design project
 
 
-Bascially it's a 3D reconstruction software, by inputting a image sequence photoed around the real object you want to reconstruct, then you delete de redudent noise points and finally you get a .ply 3D model file.
+Bascially it's a 3D reconstruction software, by inputting a image sequence photoed around the real object you want to reconstruct, then you delete redudent noise points by Perl script and finally you get a .ply 3D model file.
 
 
 
 I complete this project on my Ubuntu virtural machine and I use a lot of existing libraries or softwares  to solve some difficult parts in 3D reconstruction process. They are basically :
+
 
 
 - Dependency Packages : libgtk2.0-dev、libglew1.6-dev、libglew1.6、libdevil-dev、 libboost-all-dev、libatlas-cpp-0.6-dev、libatlas-dev、imagemagick、libatlas3gf-based、libcminpack-dev、libgfortran3、libmetis-edf-dev、libparmetis-dev、freeglut-dev、libgslo-dev.
