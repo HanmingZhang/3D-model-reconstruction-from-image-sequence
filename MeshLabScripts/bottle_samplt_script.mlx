@@ -1,0 +1,8 @@
+<!DOCTYPE FilterScript>
+<FilterScript>
+ <filter name="Conditional Vertex Selection">
+  <Param name="condSelect" tooltip="type a boolean function that will be evaluated in order to select a subset of vertices&lt;br>example: (y > 0) and (ny > 0)" description="boolean function" type="RichString" value="(x&lt;-4.2) or (x>-2.9) or (y&lt;-1.6) or (y>3) or (z&lt;2) or (z>3.5)"/>
+  <Param name="strictSelect" tooltip="If checked a face is selected if &lt;b>ALL&lt;/b> its vertices are selected. &lt;br>If unchecked a face is selected if &lt;b>at least one&lt;/b> of its vertices is selected" description="Strict face selection" type="RichBool" value="true"/>
+ </filter>
+ <filter name="Delete Selected Vertices"/>
+</FilterScript>
